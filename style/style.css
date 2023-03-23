@@ -38,3 +38,21 @@ header img{
     white-space: nowrap;
     opacity: 0.5;
 }
+
+/* section */
+
+.section__sellnft{
+    display: flex;
+    flex-direction: column;
+    margin-top: 117px;
+}
+
+.h1{ 
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #000000;
+    text-shadow: -5px 5px 0px #FFFFFF;
+    text-align: center;
+}
