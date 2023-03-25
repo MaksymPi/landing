@@ -45,14 +45,51 @@ header img{
     display: flex;
     flex-direction: column;
     margin-top: 117px;
+        /* position: relative; */
 }
-
+.sellnft__bg{
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: 0px;
+    top: 57px;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+}
 .h1{ 
-    margin: 0 auto;
     font-weight: 700;
     font-size: 80px;
     line-height: 96px;
     color: #000000;
     text-shadow: -5px 5px 0px #FFFFFF;
     text-align: center;
+    margin: 0 auto;
+}
+.text{
+    padding-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 114px;
+    height: 52px;
+    background: #532C59;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    cursor: pointer;
 }
